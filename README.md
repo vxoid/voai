@@ -1,6 +1,6 @@
-## VoAI v0.0.1 - tool designed for working with ChatGPT API
+## VoAI v0.0.2 - tool designed for working with ChatGPT API
 ## Change log
-- First release
+- Renamed python file from `vogpt` to `voai`, in v0.0.1 you should import `vogpt` not `voai`
 ## Usage
 ```python
 import voai
