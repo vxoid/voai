@@ -1,6 +1,6 @@
-## VoAI v0.0.2 - tool designed for working with ChatGPT API
+## VoAI v0.0.3 - tool designed for working with ChatGPT API
 ## Change log
-- Renamed python file from `vogpt` to `voai`, in v0.0.1 you should import `vogpt` not `voai`
+- Added `ask_with_context` method for `GPT35Turbo` that will do same as just `ask` method but will remember previous context
 ## Usage
 ```python
 import voai
