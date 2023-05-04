@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 import sys
 
 classifiers = [
@@ -18,7 +18,7 @@ if CURRENT_VERSION < REQUIRED_VERSION:
 
 setup(
     name="voai",
-    version="0.0.3",
+    version="0.0.4",
     description="A tool designed for working with 🧑‍💻ChatGPT API🧑‍💻",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
